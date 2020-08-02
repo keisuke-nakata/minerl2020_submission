@@ -16,7 +16,6 @@ logger = getLogger(__name__)
 
 def wrap_env(
         env, test,
-        env_id,
         monitor, outdir,
         frame_skip,
         gray_scale, frame_stack,

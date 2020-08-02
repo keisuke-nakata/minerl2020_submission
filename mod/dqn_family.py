@@ -143,7 +143,6 @@ def _main(args):
         randomize_action = test and args.noisy_net_sigma is None
         wrapped_env = wrap_env(
             env=env, test=test,
-            env_id=args.env,
             monitor=args.monitor, outdir=args.outdir,
             frame_skip=args.frame_skip,
             gray_scale=args.gray_scale, frame_stack=args.frame_stack,
