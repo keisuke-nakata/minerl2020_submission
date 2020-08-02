@@ -4,5 +4,5 @@
   "authors": ["minerl_rainbow_baseline"],
   "tags": "RL",
   "description": "Test Model for MineRL Challenge",
-  "gpu": true
+  "gpu": false
 }
