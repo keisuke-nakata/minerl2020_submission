@@ -6,3 +6,12 @@ opencv-python
 pyro4
 torch
 torchvision
+
+# ours
+numpy
+scipy
+scikit-learn
+pandas
+tqdm
+joblib
+pfrl
