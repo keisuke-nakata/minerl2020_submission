@@ -22,7 +22,9 @@ def wrap_env(
         randomize_action, eval_epsilon,
         action_choices):
     # wrap env: time limit...
-    if isinstance(env, gym.wrappers.TimeLimit):
+    # Don't use `ContinuingTimeLimit` for testing, in order to avoid unexpected behavior on submissions.
+    # (Submission utility regards "done" as an episode end, which will result in endless evaluation)
+    if not test and isinstance(env, gym.wrappers.TimeLimit):
         logger.info('Detected `gym.wrappers.TimeLimit`! Unwrap it and re-wrap our own time limit.')
         env = env.env
         max_episode_steps = env.spec.max_episode_steps
