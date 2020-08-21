@@ -16,7 +16,7 @@ Please ignore `train.py`, which will be used in Round 2.
 - [Rainbow](https://github.com/keisuke-nakata/minerl2020_submission) <-- We are here
 - [SQIL](https://github.com/s-shiroshita/minerl2020_sqil_submission)
 - [DQfD](https://github.com/marioyc/minerl2020_dqfd_submission)
-- [PDDDQN]https://github.com/ummavi/minerl2020_submission
+- [PDDDQN](https://github.com/ummavi/minerl2020_submission)
 
 # How to Submit
 
