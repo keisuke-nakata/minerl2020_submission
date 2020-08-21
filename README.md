@@ -12,6 +12,9 @@ Please ignore `train.py`, which will be used in Round 2.
 
 `train/` directory contains baseline agent's model weight files trained on `MineRLObtainDiamondDenseVectorObf-v0`.
 
+## List of current baselines
+- [Rainbow](https://github.com/keisuke-nakata/minerl2020_submission) <-- We are here
+- [SQIL](https://github.com/s-shiroshita/minerl2020_sqil_submission)
 
 # How to Submit
 
