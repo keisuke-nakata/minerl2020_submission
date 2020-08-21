@@ -2,7 +2,7 @@ crowdai_api
 minerl
 coloredlogs
 matplotlib
-opencv-python
+opencv-python==4.2.0.34
 pyro4
 torch
 torchvision
