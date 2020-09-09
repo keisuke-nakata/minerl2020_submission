@@ -8,7 +8,9 @@ For detailed & latest documentation about the competition/template, see the orig
 This repository is a sample of the "Round 1" submission, i.e., the agents are trained locally.  
 
 `test.py` is the entrypoint script for Round 1.  
-Please ignore `train.py`, which will be used in Round 2.
+
+The `train.py`, which is the entrypoint for Round 2, have not been checked if it could work on the MineRL Competition's submission system yet.
+To train this baseline agent, see "How to Train Baseline Agent on your own" section below.
 
 `train/` directory contains baseline agent's model weight files trained on `MineRLObtainDiamondDenseVectorObf-v0`.
 
